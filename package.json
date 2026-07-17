@@ -1,0 +1,17 @@
+{
+  "name": "sales-middleware",
+  "version": "1.0.0",
+  "description": "Middleware API that computes direct currency-to-USD conversion rates from an upstream rates feed.",
+  "main": "index.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  }
+}
